@@ -3,7 +3,7 @@ class program{
     static void Main()
     {
         Random rand = new Random();
-        int n = rand.Next(-10, 10); // This code generates numbers between -10 and 10
+        int n = rand.Next(); // This code generates random numbers 
 
         if (n > 0)
         {
